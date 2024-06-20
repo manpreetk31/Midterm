@@ -12,15 +12,15 @@ package midtermreviewcodeforpartc;
  */
 public class User 
 {
-    private String name;
-    private String password;
+    private UserName name;
+    private Password password;
     
     /**
      * a constructor that takes in the user's name and password
      * @param givenName
      * @param givenPass 
      */
-    public User(String givenName, String givenPass)
+    public User(UserName givenName, Password givenPass)
     {
         name = givenName;
         password=givenPass;
@@ -29,7 +29,7 @@ public class User
     /** The getter for the user name
      * @return the name
      */
-    public String getName() {
+    public UserName getName() {
         return name;
     }
 
@@ -37,7 +37,7 @@ public class User
      * The setter for the user name
      * @param givenName the name to set
      */
-    public void setName(String givenName) {
+    public void setName(UserName givenName) {
         name = givenName;
     }
 
@@ -45,7 +45,7 @@ public class User
      * The getter for the password
      * @return the password
      */
-    public String getPassword() {
+    public Password getPassword() {
         return password;
     }
     
@@ -53,7 +53,7 @@ public class User
      * A setter for the password
      * @param givenPass 
      */
-    public void setPassword(String givenPass)
+    public void setPassword(Password givenPass)
     {
         password = givenPass;
     }
